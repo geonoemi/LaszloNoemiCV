@@ -80,9 +80,16 @@
 }
 #recent, #bsc, #msc{
     padding-bottom:10px;
-
+}
+.hobbies{
+    
 }
 .hobbiIMGS{
     height:40px;
-    border-radius:5px;
+    border-radius:50px;
+}
+.year{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom:5px;
 }
