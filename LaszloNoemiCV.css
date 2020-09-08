@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding:0px;
+   /* width:800px;*/
+}
+.header{
+    height: 220px;
+    width:850px;
+    float:left;
+    background-color: #231d3a;
+    color:#6b6481;
+}    
+.leftColumn{
+    padding:20px;
+    background-color: #6b6481;
+    color:#17102d;
+    width:300px;
+    height:450px;
+    float:left;
+}
+.rightColumn{
+    background-color: #17102d;
+    color: #6b6481;
+    padding:20px;
+    width:470px;
+    height:450px;
+    float:left;
+}
+#headerImg{
+    padding-left:30px;
+    padding-top:25px;
+    float:left;
+    display:block;
+
+}
+#img{
+    width:160px;
+    border-radius:350px;
+    float:left;
+    display:block;
+}
+#headerName{
+    margin-left: 150px;    
+    padding-top:50px;
+    padding-bottom:15px;
+    font-weight: bold;
+    font-size:48px;
+    float:left;
+}
+#swd{    
+    margin-left: 150px;
+    font-weight: bold;
+    font-size:40px;
+    float:left;
+
+}
+.skills{
+}
+.edu{
+}
+.datahead{
+    text-transform:uppercase;
+    font-weight: bold;
+    padding-top:10px;  
+    padding-bottom:10px;   
+    font-size: 28px;
+}
+#datalabel{
+    font-weight: bold;
+    float:left;
+    padding-right:10px;
+    padding-bottom:5px;
+}
+#labeldata{
+    padding-bottom:5px;
+
+}
