@@ -14,7 +14,7 @@
     background-color: #77d5d5;
     color:#001919;
     width:300px;
-    height:450px;
+    height:600px;
     font-size:16px; 
     float:left;
 
@@ -25,7 +25,7 @@
     margin-left:340px;
     padding:20px;
     width:470px;
-    height:450px;
+    height:600px;
     font-size:16px;
 }
 #headerImg{
@@ -56,10 +56,6 @@
     float:left;
 
 }
-.skills{
-}
-.edu{
-}
 .datahead{
     text-transform:uppercase;
     font-weight: bold;
@@ -72,29 +68,25 @@
     float:left;
     padding-right:10px;
     padding-bottom:5px;
-
-
 }
 #labeldata{
+    padding-bottom:7.5px;
+}
+#recent, #bsc, #msc, #workplace{
     padding-bottom:10px;
-
 }
-#recent, #bsc, #msc{
-    padding-bottom:10px;
-}
-.hobbies{
-    
-}
-#name, #birthdate, #address, #phone, #email {
+#name, #birthdate, #address, #phone, #email, #github {
     height:22px;
+    width:22px;
     border-radius:50px;
 }
-#lname, #lbirthdate, #laddress, #lphone, #lemail {
-    padding-top:3px;
+#lname, #lbirthdate, #laddress, #lphone, #lemail, #lgithub {
+    padding-top:4px;
     padding-bottom:3.5px;
 }
 .hobbiIMGS, #java, #html, #css, #js, #jq{
-    width:50px;
+    height:80px;
+    width:80px;
     border-radius:50px;
 }
 .year{
