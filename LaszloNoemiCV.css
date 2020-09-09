@@ -6,27 +6,27 @@
 .header{
     height: 220px;
     width:850px;
-    background-color: #022a2a;
-    color:#77d5d5;
+    background-color: #022e21;
+    color:#41b67e;
 }    
 .leftColumn{
     padding:20px;
-    background-color: #77d5d5;
-    color:#001919;
-    width:300px;
+    background-color: #41b67e;
+    color:#001c13;
+    width:340px;
     height:600px;
-    font-size:16px; 
+    font-size:18px; 
     float:left;
 
 }
 .rightColumn{
-    background-color: #001919;
-    color: #77d5d5;
-    margin-left:340px;
+    background-color: #001c13;
+    color: #41b67e;
+    margin-left:380px;
     padding:20px;
-    width:470px;
+    width:430px;
     height:600px;
-    font-size:16px;
+    font-size:18px;
 }
 #headerImg{
     padding-left:30px;
@@ -67,17 +67,18 @@
     font-weight: bold;
     float:left;
     padding-right:10px;
-    padding-bottom:5px;
+    padding-bottom:18px;
+    padding-top:3px;
 }
 #labeldata{
-    padding-bottom:7.5px;
+    padding-top:3px;
 }
 #recent, #bsc, #msc, #workplace{
     padding-bottom:10px;
 }
 #name, #birthdate, #address, #phone, #email, #github {
-    height:22px;
-    width:22px;
+    height:24px;
+    width:24px;
     border-radius:50px;
 }
 #lname, #lbirthdate, #laddress, #lphone, #lemail, #lgithub {
