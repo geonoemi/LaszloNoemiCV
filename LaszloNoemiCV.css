@@ -2,22 +2,21 @@
     margin:0px;
     padding:0px;
     
-   /* width:800px;*/
 }
 .header{
-    height: 220px;
-    width:900px;
+    height: 200px;
+    width:800px;
     background-color: #334759;
     color:#8b97a3;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }    
 .leftColumn{
-    padding:20px;
+    padding-left:20px;
     background-color: #8b97a3;
     color:#1e354a;
-    width:340px;
-    height:620px;
-    font-size:18px; 
+    width:320px;
+    height:700px;
+    font-size:17px; 
     float:left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -25,16 +24,16 @@
 .rightColumn{
     background-color: #1e354a;
     color: #8b97a3;
-    margin-left:380px;
-    padding:20px;
-    width:480px;
-    height:620px;
+    margin-left:340px;
+    padding-left:20px;
+    width:440px;
+    height:700px;
     font-size:18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #headerImg{
     padding-left:30px;
-    padding-top:25px;
+    padding-top:17px;
     float:left;
     display:block;
 
@@ -63,7 +62,7 @@
 .datahead{
     text-transform:uppercase;
     font-weight: bold;
-    padding-top:15px;  
+    padding-top:20px;  
     padding-bottom:15px;   
     font-size: 28px;
 }
@@ -77,8 +76,11 @@
 #labeldata{
     padding-top:5px;
 }
-.skills{
-    padding-top:10px;
+.skills {
+    padding-top:40px;
+}
+#languages{
+    padding-top:30px;
 }
 #recent, #bsc, #msc, #workplace{
     padding-bottom:10px;
@@ -89,10 +91,16 @@
     border-radius:50px;
 }
 #lname, #lbirthdate, #laddress, #lphone, #lemail, #lgithub {
-    padding-top:4px;
+    padding-top:5px;
     padding-bottom:3.5px;
 }
-.hobbiIMGS, #java, #html, #css,#js, #jq{
+.hobbiIMGS{
+    height:50px;
+    width:50px;
+    border-radius:50px; 
+    padding:3px;    
+}
+#java, #html, #css,#js, #jq{
     height:80px;
     width:80px;
     border-radius:50px; 
@@ -100,9 +108,10 @@
 }
 #js {
    margin-left:50px;
+   padding-right:10px;
 }
 .year{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     padding-bottom:5px;
 }
