@@ -1,32 +1,36 @@
 *{
     margin:0px;
     padding:0px;
+    
    /* width:800px;*/
 }
 .header{
     height: 220px;
-    width:850px;
-    background-color: #022e21;
-    color:#41b67e;
+    width:900px;
+    background-color: #334759;
+    color:#8b97a3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }    
 .leftColumn{
     padding:20px;
-    background-color: #41b67e;
-    color:#001c13;
+    background-color: #8b97a3;
+    color:#1e354a;
     width:340px;
-    height:600px;
+    height:620px;
     font-size:18px; 
     float:left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 .rightColumn{
-    background-color: #001c13;
-    color: #41b67e;
+    background-color: #1e354a;
+    color: #8b97a3;
     margin-left:380px;
     padding:20px;
-    width:430px;
-    height:600px;
+    width:480px;
+    height:620px;
     font-size:18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #headerImg{
     padding-left:30px;
@@ -68,10 +72,13 @@
     float:left;
     padding-right:10px;
     padding-bottom:18px;
-    padding-top:3px;
+    padding-top:7.5px;
 }
 #labeldata{
-    padding-top:3px;
+    padding-top:5px;
+}
+.skills{
+    padding-top:10px;
 }
 #recent, #bsc, #msc, #workplace{
     padding-bottom:10px;
@@ -85,10 +92,14 @@
     padding-top:4px;
     padding-bottom:3.5px;
 }
-.hobbiIMGS, #java, #html, #css, #js, #jq{
+.hobbiIMGS, #java, #html, #css,#js, #jq{
     height:80px;
     width:80px;
-    border-radius:50px;
+    border-radius:50px; 
+    padding:5px;
+}
+#js {
+   margin-left:50px;
 }
 .year{
     font-size: 20px;
